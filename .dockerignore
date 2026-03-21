@@ -1,0 +1,9 @@
+.git
+.gitignore
+Dockerfile
+node_modules
+.next
+package.json
+package-lock.json
+*.py
+*.test
