@@ -1,0 +1,17 @@
+# Version Control
+.git/
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project specific
+bulk_cleanup.py
+*.log
+node_modules/
+.env
+
+# Temporary files
+*.tmp
+*.bak
