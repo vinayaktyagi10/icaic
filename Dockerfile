@@ -1,8 +1,11 @@
 # Use Nginx to serve the static content
 FROM nginx:alpine
 
-# Copy the static files to the Nginx HTML directory
-COPY . /usr/share/nginx/html
+# Copy everything
+COPY . /usr/share/nginx/html/
+
+# Copy minimal nginx config
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # Expose port 80
 EXPOSE 80
